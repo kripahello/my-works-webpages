@@ -1,0 +1,89 @@
+body {
+  background-image: url(./Screenshot\ 2022-09-06\ 113506.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin: 5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section div:first-child {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-discription {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.life-denotation {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 4.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.life-denotation div {
+  width: 100%;
+  height: 15px;
+  right: 0rem;
+  bottom: 0.02rem;
+  color: blue;
+  position: absolute;
+}
+
+.life-denotation div:first-child {
+  width: 18rem;
+  text-align: center;
+  background-color: chartreuse;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.buttons button {
+  display: none;
+  margin: 0.5rem;
+  width: 200%;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.buttons button:last-child {
+  display: block;
+}
+
+.buttons button:hover {
+  background-color: grey;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer img {
+  height: 20rem;
+}
+
+.pictures {
+  display: none;
+}/*# sourceMappingURL=sass.css.map */
